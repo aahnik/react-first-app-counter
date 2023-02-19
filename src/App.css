@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#mycard{
+
+  margin: auto;
+  margin-top: 30vh;
+}

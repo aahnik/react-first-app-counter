@@ -35,10 +35,10 @@ function HookCounter() {
                 }}>
 
 
-                    <Fab color="primary" aria-label="up" onClick={()=> setCount(count+1)}>
+                    <Fab color="primary" aria-label="up" onClick={()=> setCount(prev=> prev+1)}>
                         <AddIcon />
                     </Fab>
-                    <Fab color="secondary" aria-label="down" onClick={ () => setCount(count -1)}>
+                    <Fab color="secondary" aria-label="down" onClick={ () => setCount(prev=> prev-1)}>
                         <RemoveIcon />
                     </Fab>
                     <Fab  aria-label="like" onClick={ () => setCount(0)}>
